@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">FixIt</string>
+
+
+    <string name="login_signup_Login">LOG IN</string>
+    <string name="login_signup_Signup">SIGN UP</string>
+
+    <string name="signup_SignUp">SIGN UP</string>
+
+    <string name="login_logIn">LOG IN</string>
+
+    <string name="worker_save">SAVE</string>
+
+    <string name="customer_save">SAVE</string>
+
+    <string name="signup_cancelBtn">cancel</string>
+
+    <string name="login_cancelBtn">cancel</string>
+
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="Halted">Halted</string>
+
+    <string name="Welcome">Welcome!</string>
+
+    <string name="User">User</string>
+
+    <string name="Fixit">FIX-IT</string>
+
+    <string name="PoweredBy">Powered By Oreo</string>
+
+    <string name="Find">    Find     </string>
+
+    <string name="Pending"> Pending </string>
+
+    <string name="OnGoing">OnGoing</string>
+
+    <string name="Complete">Complete</string>
+
+    <string name="Ratings"> Ratings </string>
+
+    <string name="GetWorker">Get Worker</string>
+
+    <string name="OnGoingWork">On-Going Work</string>
+
+    <string name="RequestPending">Request Pending</string>
+
+    <string name="EnterDetails">Enter Details</string>
+
+    <string name="Title">Title</string>
+
+    <string name="Description">Description</string>
+
+    <string name="CurrentLocation">Current Location</string>
+
+    <string name="Submit">Submit</string>
+
+    <string name="ChooseTip">Choose Tip</string>
+
+    <string name="Work">Work</string>
+
+    <string name="StatusInProgress">Status: In Progress</string>
+
+    <string name="Tile">Tile: 5</string>
+
+    <string name="Yes">Yes</string>
+
+    <string name="No">No</string>
+
+    <string name="Confirm">Confirm</string>
+
+    <string name="Continue">Are you certain you want to continue?</string>
+
+    <string-array name="title_options">
+        <item>Choose Worker Type</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Gardener</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="type">
+        <item></item>
+        <item>Worker</item>
+        <item>Customer</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+
+<!--    Strings for worker side management-->
+
+    <!--    Text for dashboard-->
+    <string name="dashboardName">Dashboard</string>
+    <string name="profile">Profile</string>
+    <string name="map">Back to Map</string>
+    <string name="jobs">Search Job</string>
+    <string name="onGoing">On Going</string>
+    <string name="completed">Completed</string>
+    <string name="notes">Notes</string>
+
+    <string name="welcomeMsg">Welcome :</string>
+
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+
+    <!--    Text for Job Search-->
+    <string name="jobSearchTitle">Find a job</string>
+    <string name="location">Select City</string>
+    <string name="jobType">Select Work Type</string>
+    <!--    For Job Types-->
+    <string-array name="jobTypeArray">
+        <item>Default</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Gardner</item>
+        <item>Carpenter</item>
+    </string-array>
+    <!--For Districts-->
+    <string-array name="locationArray">
+        <item>Default</item>
+        <item>Colombo</item>
+        <item>Kandy</item>
+        <item>Matale</item>
+        <item>Galle</item>
+    </string-array>
+
+    <string name="acceptJobQuestion">Accept the job ? </string>
+
+
+    <!--    List Item for jobs-->
+    <string name="jobTypeString">Job Type :</string>
+    <string name="locationString">Location :</string>
+    <string name="customerNameString">Customer Name :</string>
+    <string name="jobSearchDesc">Description :</string>
+
+    <!--        Buttons job list item-->
+    <string name="jobAcceptBtn">Accept</string>
+
+
+    <!--String for On Going Job Activity-->
+    <string name="onGoingJobTitle">On Going Jobs</string>
+
+    <!--    Strings for On Going Jobs List Item-->
+    <string name="onGoingJobAcceptedDate">Accepted Date :</string>
+    <string name="onGoingJobCustomerNameString">Customer Name :</string>
+
+    <!--    Buttons-->
+    <string name="onGoingCancelBtn">Cancel</string>
+    <string name="onGoingCompleteBtn">Complete</string>
+
+
+    <!--    Completed jobs page-->
+
+    <!--    Completed jobs list item-->
+    <string name="completedJobsPrice">Amount(LKR) :</string>
+    <string name="completedJobsCustomerName">Customer Name :</string>
+    <string name="completedJobsJobType">Job Type :</string>
+    <string name="completedJobsLocation">Location :</string>
+    <string name="completedJobsStatus">Status :</string>
+    <string name="completedJobsTitle">Completed Jobs</string>
+
+    <!--    Button completed jobs-->
+    <string name="completedJobsDeleteBtn">Delete</string>
+    <string name="onGoingMapBtn">Open in Maps</string>
+
+    <!--    Payment activity strings-->
+    <string name="paymentTitle">Payment</string>
+    <string name="paymentEnterAmount">Enter Amount</string>
+    <string name="paymentBtn">Complete</string>
+    <string name="paymentCustomerNameDisplay">You are about to complete job of :</string>
+
+
+    <!--    Cancel Order-->
+    <string name="cancelJobTitle">Cancellation</string>
+    <string name="cancelJobReason">Enter Reason :</string>
+    <string name="cancelJobBtn">Cancel Job</string>
+
+    <string name="paymentCancelBtn">Cancel</string>
+
+    <string name="phoneNumberJobOnGoing">Contact Number :</string>
+
+
+</resources>

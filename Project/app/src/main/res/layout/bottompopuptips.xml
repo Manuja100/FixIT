@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg">
+
+    <TextView
+        android:id="@+id/choosetip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/ChooseTip"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/layoutEdit"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/fifteen"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fifteen"
+            android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:id="@+id/twentyfive"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/twentyfive"
+            android:layout_marginRight="15dp"/>
+
+        <ImageView
+            android:id="@+id/fiftyfive"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fiftyfive"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

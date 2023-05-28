@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white"
+    android:orientation="vertical"
+    tools:context=".searchJobs" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/onGoingBackBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/backicon"
+            android:visibility="visible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jobSearchTitle"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/jobTypeTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/jobType"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="10dp"-->
+<!--        android:textColor="@color/grey"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/jobSpinner"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/dropdown"-->
+<!--        android:entries="@array/jobTypeArray"-->
+<!--        android:paddingStart="16dp"-->
+<!--        android:paddingLeft="16dp"-->
+<!--        android:paddingTop="0dp"-->
+<!--        android:paddingRight="16dp"-->
+<!--        android:paddingBottom="4dp"-->
+<!--        android:scrollbarSize="30sp"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/jobLocationTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/location"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="10dp"-->
+<!--        android:textColor="@color/grey"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <Spinner-->
+<!--        android:id="@+id/locationSpinner"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="35dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/dropdown"-->
+<!--        android:entries="@array/locationArray"-->
+<!--        android:paddingStart="16dp"-->
+<!--        android:paddingLeft="16dp"-->
+<!--        android:paddingTop="0dp"-->
+<!--        android:paddingRight="16dp"-->
+<!--        android:paddingBottom="4dp"-->
+<!--        android:scrollbarSize="30sp"/>-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/filterJobsBtn"-->
+<!--        android:layout_width="75dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:src="@drawable/filterbutton"-->
+<!--        android:layout_gravity="center"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/jobDisplayRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        tools:listitem="@layout/joblistitem" />
+
+</LinearLayout>
